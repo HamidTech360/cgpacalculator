@@ -39,16 +39,17 @@
 }
 .inputList{
     list-style: none;
-    line-height: 30px;
+    line-height: 50px;
 }
 .courselist{
-    line-height: 30px;
+    line-height: 50px;
 }
 input{
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
     border-bottom: 2px solid rgb(195, 16, 16);
+    background-color: #cecece;
 }
 h3{
     color: black;
@@ -249,14 +250,26 @@ h6{
         margin-bottom: 20px;
     }
     .title{
-        font-size: 22px;
+        font-size: 30px;
         padding-left: 100px;
+        font-weight: bolder;
     }
     body{
         margin-right: -90px;
     }
     .head{
          border-radius: 0px;
+    }
+    .container{
+        margin-left: 40px;
+    }
+    .inputList, .courselist{
+        line-height: 50px;
+    }
+    h3{
+        font-family: cursive;
+        color: rgb(129, 10, 10);
+        
     }
 }
 
@@ -270,4 +283,9 @@ h6{
     }    
     
    
+}
+@media screen and (max-width:320px){
+    .title{
+        padding-left: 60px;
+    }
 }
