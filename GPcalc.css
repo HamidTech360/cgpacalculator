@@ -259,6 +259,7 @@ h6{
     }
     .head{
          border-radius: 0px;
+         padding: top 10px;
     }
     .container{
         margin-left: 40px;
