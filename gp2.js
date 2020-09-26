@@ -230,17 +230,17 @@ document.querySelector('.btnget').addEventListener('click', function (){
    
      let CGPcomment;
      if(cgpa <= 5.0 && cgpa >=4.5){
-        CGPcomment='YOU are on first class with an Excellent GPPA of ' + cgpa
+        CGPcomment='YOU are on first class with an Excellent CGPA of ' + cgpa
      }else if(cgpa < 4.5 && cgpa >=3.5){
-        CGPcomment='YOU are on Second class Upper with a sound GPPA of ' + cgpa
+        CGPcomment='YOU are on Second class Upper with a sound CGPA of ' + cgpa
     }else if(cgpa < 3.5 && cgpa >=2.5){
-        CGPcomment='YOU are on Second class Lower with a GPPA of ' + cgpa
+        CGPcomment='YOU are on Second class Lower with a CGPA of ' + cgpa
      }else if(cgpa < 2.5 && cgpa >=1.5){
-        CGPcomment='YOU are on Third class with a GPPA of ' + cgpa
+        CGPcomment='YOU are on Third class with a CGPA of ' + cgpa
     }else if(cgpa < 1.5 && cgpa >=1.0){
-        CGPcomment='YOU are on pass with  poor GPPA of ' + cgpa
+        CGPcomment='YOU are on pass with  poor CGPA of ' + cgpa
     }else if(cgpa <= 1.0 && cgpa >=0){
-        CGPcomment='YOU are on probation with a GPPA of ' + cgpa + 'Failure to improve next semster will lead you to road 1 ' 
+        CGPcomment='YOU are on probation with a CGPA of ' + cgpa + 'Failure to improve next semster will lead you to road 1 ' 
     }else{
         CGPcomment='please Enter reasonable values'
     }
